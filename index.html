@@ -48,8 +48,15 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-size: 1.5rem;
       padding: 20px;
+    }
+
+    main img {
+      width: 1500px;       /* PC’de tam genişlik */
+      max-width: 100%;     /* Ekranı aşmayacak şekilde küçülür */
+      height: auto;        /* Oranı bozulmasın */
+      display: block;
+      margin: 0 auto;      /* Ortala */
     }
 
     /* Footer stili */
@@ -72,8 +79,7 @@
   </header>
 
   <main>
-    <p>This is the official Zinrex site.<br>
-       Find privacy policy, account deletion, and contact info.</p>
+    <img src="https://raw.githubusercontent.com/zinrexapp/zinrexapp/main/deneme.jpg" alt="Zinrex">
   </main>
 
   <footer>
